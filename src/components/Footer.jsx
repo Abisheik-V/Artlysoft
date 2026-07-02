@@ -143,7 +143,8 @@ const Footer = () => {
                 <Github size={20} />
               </a>
             </div>
-            <p className="text-muted">&copy; 2025 <span className='class-font'>A</span>rtlysoft Private Limited. All rights reserved.</p>
+        
+            <p className="text-muted">&copy; {new Date().getFullYear()} <span className='class-font'>A</span>rtlysoft Private Limited. All rights reserved.</p>
             <p className="text-muted">Designed with <MonitorCog size={20} style={{ color: "#129BE5"}} /> by Artlysoft Web Team.</p>
           </div>
         </div>

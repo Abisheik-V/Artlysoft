@@ -98,7 +98,7 @@ const Navbar = () => {
               </li>
 
               
-
+              <li className="nav-item"><NavLink className="nav-link" to="/product">Product</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/careers">Careers</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/courses">Courses</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/contact">Contact</NavLink></li>
@@ -134,7 +134,7 @@ const Navbar = () => {
               <li><NavLink to="/services" className="nav-link" onClick={handleNavLinkClick}>Services</NavLink></li>
             
 
-
+              <li><NavLink to="/product" className="nav-link" onClick={handleNavLinkClick}>Product</NavLink></li>
               <li><NavLink to="/careers" className="nav-link" onClick={handleNavLinkClick}>Careers</NavLink></li>
               <li><NavLink to="/courses" className="nav-link" onClick={handleNavLinkClick}>Courses</NavLink></li>
               <li><NavLink to="/contact" className="nav-link" onClick={handleNavLinkClick}>Contact</NavLink></li>
