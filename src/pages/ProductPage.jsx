@@ -78,7 +78,7 @@ function Nav () {
 
         <>
 
-        <section className='nav-sec'>
+        <section className='nav-sec sticky-top'>
             <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/" onClick={closeNav}>
@@ -100,20 +100,20 @@ function Nav () {
       <ul className="navbar-nav mx-auto">
         
         <li className="nav-item">
-          <NavHashLink className="nav-link" to="/#feature" onClick={closeNav}>Features</NavHashLink>
+          <NavHashLink className="nav-link" to="#feature" onClick={closeNav}>Features</NavHashLink>
         </li>
         <li className="nav-item">
-          <NavHashLink className="nav-link" to="/#pricing" onClick={closeNav}>Pricing</NavHashLink>
+          <NavHashLink className="nav-link" to="#pricing" onClick={closeNav}>Pricing</NavHashLink>
         </li>
         <li className="nav-item">
-          <NavHashLink className="nav-link" to="/#cont" onClick={closeNav}>Contact</NavHashLink>
+          <NavHashLink className="nav-link" to="#cont" onClick={closeNav}>Contact</NavHashLink>
         </li>
       </ul>
 
-      <Link className='nav-link nav-log' to="/" onClick={closeNav}>Login</Link>
+      <Link className='nav-link nav-log' to="#" onClick={closeNav}>Login</Link>
 
       <button className='btn-demo'>
-        <NavHashLink className="demo-btn" to="/#cont" onClick={closeNav}>Request Demo</NavHashLink>
+        <NavHashLink className="demo-btn" to="#cont" onClick={closeNav}>Request Demo</NavHashLink>
       </button>
 
       {/* ── Theme Toggle Button ── */}
@@ -170,10 +170,10 @@ function Footer () {
               <div className='col-12 col-md-3'>
                   <h4 className="foot-head">QUICK LINKS</h4>
                   <ul className='foot-links'>
-                        <li><NavHashLink className='foot-link' to="/#feature">Features</NavHashLink></li>
-                        <li><NavHashLink className='foot-link' to="/#pricing">Pricing</NavHashLink></li>
-                        <li><NavHashLink className='foot-link' to="/#cont">Contact</NavHashLink></li>
-                        <li><NavHashLink className='foot-link' to="/#cont">Demo Request</NavHashLink></li>
+                        <li><NavHashLink className='foot-link' to="#feature">Features</NavHashLink></li>
+                        <li><NavHashLink className='foot-link' to="#pricing">Pricing</NavHashLink></li>
+                        <li><NavHashLink className='foot-link' to="#cont">Contact</NavHashLink></li>
+                        <li><NavHashLink className='foot-link' to="#cont">Demo Request</NavHashLink></li>
                         </ul>
               </div>
 
@@ -417,8 +417,8 @@ function ProductPage () {
                        <h2 className="hero-head">Transform Student Training into Successful Placements</h2>
                        <p className="hero-text">TalentOS unifies student lifecycle management, AI-powered assessments, recruiter engagement, and real-time analytics — giving institutes the edge to achieve 95%+ placement rates.</p>
                        <div className="hero-btns">
-                          <button className='btn-demo'><NavHashLink className="demo-btn" to="/#cont"><i className="bi bi-play"></i>Request Demo</NavHashLink></button>
-                          <button className='btn-start'><NavHashLink className="start-hero" to="/#cont">Get Started<i className="bi bi-arrow-right"></i></NavHashLink></button>
+                          <button className='btn-demo'><NavHashLink className="demo-btn" to="#cont"><i className="bi bi-play"></i>Request Demo</NavHashLink></button>
+                          <button className='btn-start'><NavHashLink className="start-hero" to="#cont">Get Started<i className="bi bi-arrow-right"></i></NavHashLink></button>
                        </div>
                    </div>
 
@@ -654,7 +654,7 @@ function ProductPage () {
                             <li>Resume builder</li>
                             <li>Email support</li>
                         </ul>
-                        <button className="plan-btn plan-btn-outline"><NavHashLink className="btn-price" to="/#cont">Get Started</NavHashLink></button>
+                        <button className="plan-btn plan-btn-outline"><NavHashLink className="btn-price" to="#cont">Get Started</NavHashLink></button>
                     </div>
 
                     {/* Professional — Featured */}
@@ -676,7 +676,7 @@ function ProductPage () {
                             <li>Priority support &amp; SLA</li>
                             <li>API integrations</li>
                         </ul>
-                        <button className="plan-btn plan-btn-white"><NavHashLink className="btn-price" to="/#cont">Get Started</NavHashLink></button>
+                        <button className="plan-btn plan-btn-white"><NavHashLink className="btn-price" to="#cont">Get Started</NavHashLink></button>
                     </div>
 
                     {/* Enterprise */}
@@ -696,7 +696,7 @@ function ProductPage () {
                             <li>SSO &amp; LDAP integration</li>
                             <li>24/7 premium support</li>
                         </ul>
-                        <button className="plan-btn plan-btn-outline"><NavHashLink className="btn-price" to="/#cont">Contact Sales</NavHashLink></button>
+                        <button className="plan-btn plan-btn-outline"><NavHashLink className="btn-price" to="#cont">Contact Sales</NavHashLink></button>
                     </div>
 
                 </div>
@@ -816,11 +816,11 @@ function ProductPage () {
                 <div className="cta-btns">
                     <div className="cta-btns">
     
-    <NavHashLink className="cta-btn-outline ban-btn" to="/#cont">
+    <NavHashLink className="cta-btn-outline ban-btn" to="#cont">
         <i className="bi bi-play-fill"></i> Request a Demo
     </NavHashLink>
     
-    <NavHashLink className="cta-btn-solid ban-btn" to="/#pricing">
+    <NavHashLink className="cta-btn-solid ban-btn" to="#pricing">
         Start Free Trial <i className="bi bi-arrow-right"></i>
     </NavHashLink>
 </div>

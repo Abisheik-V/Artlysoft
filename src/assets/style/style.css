@@ -155,9 +155,25 @@
   font-weight: 500;
   padding: 0 12px !important;
   transition: color 0.2s ease-in-out;
+  text-decoration: none !important;
 }
 .product-wrapper .navbar-nav .nav-link:hover {
   color: var(--clr-primary) !important;
+}
+.product-wrapper .navbar-nav .nav-link,
+.product-wrapper .navbar-nav .nav-link:focus,
+.product-wrapper .navbar-nav .nav-link.active {
+  color: var(--clr-text-nav) !important;
+  text-decoration: none !important;
+  border-bottom: none !important; /* In case a border-bottom is causing the "underline" */
+  box-shadow: none !important;
+}
+
+/* 2. Keep the hover effect working perfectly */
+.product-wrapper .navbar-nav .nav-link:hover,
+.product-wrapper .navbar-nav .nav-link.active:hover {
+  color: var(--clr-primary) !important;
+  text-decoration: none !important;
 }
 .product-wrapper .btn-login,
 .product-wrapper .btn-demo {
